@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<defs>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#F3E4BA"/><stop offset=".32" stop-color="#CDAE6A"/><stop offset=".68" stop-color="#9C7C3E"/><stop offset="1" stop-color="#DCC48C"/>
+</linearGradient>
+<radialGradient id="bg" cx=".3" cy=".25" r="1"><stop offset="0" stop-color="#FFFDF8"/><stop offset="1" stop-color="#F2E7D3"/></radialGradient>
+<radialGradient id="shadow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#514034" stop-opacity=".18"/><stop offset="1" stop-color="#514034" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="1000" fill="url(#bg)"/>
+<circle cx="400" cy="500" r="336" fill="none" stroke="#B99A5B" stroke-opacity=".2" stroke-width="2"/><circle cx="400" cy="500" r="376" fill="none" stroke="#B99A5B" stroke-opacity=".14" stroke-width="1.5" stroke-dasharray="2 10"/>
+<ellipse cx="400" cy="900" rx="272" ry="22" fill="url(#shadow)"/>
+<g transform="translate(400 500) rotate(-7) scale(0.92) translate(-400 -500)"><ellipse cx="400" cy="520" rx="270" ry="210" fill="none" stroke="url(#gold)" stroke-width="64"/><ellipse cx="400" cy="520" rx="270" ry="210" fill="none" stroke="#FBF1D2" stroke-opacity=".55" stroke-width="6" transform="translate(-8 -8)"/><ellipse cx="400" cy="520" rx="270" ry="210" fill="none" stroke="#7A5E2A" stroke-opacity=".35" stroke-width="40" stroke-dasharray="2 22"/><ellipse cx="400" cy="520" rx="302" ry="242" fill="none" stroke="rgba(110,80,30,.45)" stroke-width="1.2"/><circle cx="400" cy="310" r="34" fill="url(#gold)" stroke="rgba(110,80,30,.45)" stroke-width="1.2"/><circle cx="400" cy="310" r="24.5" fill="none" stroke="#FBF1D2" stroke-opacity=".7" stroke-width="1.5"/><circle cx="400" cy="310" r="12.9" fill="#A63D40"/><circle cx="396.6" cy="306.6" r="3.4" fill="#fff" fill-opacity=".5"/><circle cx="400" cy="730" r="34" fill="url(#gold)" stroke="rgba(110,80,30,.45)" stroke-width="1.2"/><circle cx="400" cy="730" r="24.5" fill="none" stroke="#FBF1D2" stroke-opacity=".7" stroke-width="1.5"/></g>
+</svg>
